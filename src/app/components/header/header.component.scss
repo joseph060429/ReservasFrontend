@@ -1,0 +1,45 @@
+/* Estilos personalizados para el header */
+.navbar {
+  background: linear-gradient(45deg, #007bff, #00aaff); /* Degradado */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 10px 20px;
+}
+
+.navbar-brand img {
+  max-height: 60px;
+}
+
+.navbar-nav {
+  display: flex;
+  gap: 20px; /* Espacio horizontal entre los botones */
+  list-style: none; /* Elimina los puntos de las listas */
+  padding: 0; /* Elimina el padding por defecto */
+  margin: 0; /* Elimina el margen por defecto */
+}
+
+.navbar-nav .nav-link {
+  color: #fff;
+  font-size: 1rem;
+  padding: 10px 15px;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  background-color: #0056b3;
+  color: #fff;
+}
+
+.form-control {
+  border-radius: 20px;
+}
+
+.btn-outline-success {
+  border-radius: 20px;
+  padding: 5px 20px;
+}
+
+.btn-outline-success:hover {
+  background-color: #00ffaa;
+  border-color: #00ffaa;
+  color: #fff;
+}
